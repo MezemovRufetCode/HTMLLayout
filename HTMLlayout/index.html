@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="topheader">
+            <div class="contactinfo">
+                <p><b>Phone:</b>+1 (234) 567-890</p>
+                <p><b>Email:</b>contact@inspiro-media.com</p>
+            </div>
+            <div class="social-medias">
+                <ul>
+                    <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                    <li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+                    <li><a href=""><i class="fab fa-pinterest"></i></a></li>
+                    <li><a href=""><i class="fab fa-vimeo"></i></a></li>
+                    <li><a href=""><i class="fa fa-rss"></i></a></li>
+                    <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href=""><i class="fab fa-dribbble"></i></a></li>
+                    <!-- logolarin yeqin ki hamisini tapib yazmaga ehtiyac yox idi -->
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="bottomheader">
+            <div class="logo">
+                <h2>
+                    <a href="">POLO</a>
+                </h2>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li>
+                        <div class="mainLink">
+                            <a href="">ABOUT</a>
+                        </div>
+                        <div class="subLink">
+                            <ul>
+                                <li>
+                                    <div class="submainLink">
+                                        <a href="">Topbar</a>
+                                    </div>
+                                    <div class="secondsubLink">
+                                        <ul>
+                                            <li><a href="">Light</a></li>
+                                            <li><a href="">Light</a></li>
+                                            <li><a href="">Light</a></li>
+                                            <li><a href="">Light</a></li>
+                                            <li><a href="">Light</a></li>
+                                        </ul>
+                                    </div>
+                                    <!-- digerleri de bunun kimi alt kateqoriyalara bolunur,biri bes eleyirdi -->
+                                </li>
+                                <li><a href="">Header</a></li>
+                                <li><a href="">Mani menu</a></li>
+                                <li><a href="">Page title</a></li>
+                                <li><a href="">Page menu</a></li>
+                                <li><a href="">Sidebar</a></li>
+                                <li><a href="">Footers</a></li>
+                                <li><a href="">Options</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="">FEATURES</a></li>
+                    <li><a href="">ELEMENTS</a></li>
+                    <li><a href="">PAGES</a></li>
+                    <li><a href="">PORTFOLIO</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">SHOP</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="language">
+                <i class="fas fa-globe"></i>
+                <form action="">
+                    <select name="lang" id="lang">
+                        <option value="fr">French</option>
+                        <option value="es">Spanish</option>
+                        <option value="en">English</option>
+                    </select>
+                </form>
+                <!-- JS ile bagli hissedi deye gorunum ucun formla yazmisam list verende anlasiqli gorunmur -->
+                <!-- <ul>
+                    <li>French</li>
+                    <li>Spanish</li>
+                    <li>English</li>
+                </ul> -->
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="Chechking">
+            <div class="info">
+                <h1>5 star Hotel</h1>
+                <p>Wonderful Feelings</p>
+            </div>
+            <div class="avaliabilityCheck">
+                <form action="">
+                    <label for="checkin">Check in</label><br>
+                    <input type="date" name="" id="checkin" required><br>
+                    <label for="checkout">Check out</label><br>
+                    <input type="date" name="" id="checkout" required><br>
+                    <label for="adultcount">Adults</label><br>
+                    <input type="number" required id="adultcount" min="0" max="50"><br>
+                    <label for="childcound">Children</label><br>
+                    <input type="number" required id="childcount" min="0" max="50"><br>
+                    <label for="roomtype">Room type</label><br>
+                    <select name="roomtypes" id="roomtype">
+                        <option value="single">Single</option>
+                        <option value="double">Double</option>
+                        <option value="kingdouble">King double</option>
+                    </select><br><br>
+                    <input type="submit" value="CHECK AVALIABILITY">
+                </form>
+            </div>
+        </section>
+        <br>
+        <section id="introduction">
+            <div class="title">
+                <h1>Welcome to Hotel POLO</h1>
+            </div>
+            <hr>
+            <div class="info">
+                <p>Hotel “POLO” is a peaceful and well-equipped holiday hotel. Thanks to the favourable situation close
+                    to the beach, the woods and the village centre, it is an ideal hotel, where you will certainly feel
+                    at home.</p>
+            </div>
+            <hr>
+            <div class="services">
+                <div class="service">
+                    <div class="icon">
+                        <i class="fas fa-coffee"></i>
+                    </div>
+                    <div class="title">
+                        <h3>Restaurant</h3>
+                    </div>
+                    <div class="desc">
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form</p>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="title">
+                        <h3>Revolving Cocktail bar</h3>
+                    </div>
+                    <div class="desc">
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form</p>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <div class="title">
+                        <h3>Free airport pick up service</h3>
+                    </div>
+                    <div class="desc">
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form</p>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="title">
+                        <h3>5/5 rating</h3>
+                    </div>
+                    <div class="desc">
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <section id="offers">
+            <div class="title">
+                <h1>
+                    Hotel Rooms
+                </h1>
+            </div>
+            <hr>
+            <div class="info">
+                <p>Hotel “POLO” is a peaceful and well-equipped holiday hotel. Thanks to the favourable situation close
+                    to the beach, the woods and the village centre, it is an ideal hotel, where you will certainly feel
+                    at home.</p>
+            </div>
+            <div class="offer">
+                <div class="desc">
+                    <span>SAVE 60%</span>
+                </div>
+                <div class="details">
+                    <h3>Deluxe Room</h3>
+                </div>
+                <div class="info">
+                    <p>Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem
+                        lacinia quam venenatis vestibulum.</p>
+                </div>
+                <div class="price">
+                    <p><b>89$/day</b></p>
+                </div>
+                <button type="submit">BOOK</button>
+            </div>
+            <br>
+            <div class="offer">
+                <div class="details">
+                    <h3>Deluxe Room</h3>
+                </div>
+                <div class="info">
+                    <p>Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem
+                        lacinia quam venenatis vestibulum.</p>
+                </div>
+                <div class="price">
+                    <p><b>89$/day</b></p>
+                </div>
+                <button type="submit">BOOK</button>
+            </div>
+            <br>
+            <div class="offer">
+                <div class="desc">
+                    <span>SAVE 60%</span>
+                </div>
+                <div class="details">
+                    <h3>Deluxe Room</h3>
+                </div>
+                <div class="info">
+                    <p>Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem
+                        lacinia quam venenatis vestibulum.</p>
+                </div>
+                <div class="price">
+                    <p><b>89$/day</b></p>
+                </div>
+                <button type="submit">BOOK</button>
+            </div>
+            <br>
+            <div class="offer">
+                <div class="desc">
+                    <span>SAVE 60%</span>
+                </div>
+                <div class="details">
+                    <h3>Deluxe Room</h3>
+                </div>
+                <div class="info">
+                    <p>Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem
+                        lacinia quam venenatis vestibulum.</p>
+                </div>
+                <div class="price">
+                    <p><b>89$/day</b></p>
+                </div>
+                <button type="submit">BOOK</button>
+            </div>
+        </section>
+        <br>
+        <hr>
+        <br>
+        <section id="events-appointments">
+            <div class="event">
+                <div class="title">
+                    <h1>Events</h1>
+                </div>
+                <div class="desc">
+                    <p>Ready to Purchase POLO Template?</p>
+                    <hr>
+                </div>
+
+                <div class="title">
+                    <p><b>Day 01</b></p>
+                </div>
+                <div class="date">
+                    <p>
+                        17.10.2015
+                    </p>
+                </div>
+                <div class="day1">
+                    <div class="firstevent">
+                        <div class="icon">
+                            <i class="far fa-clock"></i>
+                        </div>
+                        <div class="time">
+                            <p>09:00-10:45</p>
+                        </div>
+                        <div class="title">
+                            <h3>Juna Doe</h3>
+                        </div>
+                        <div class="info">
+                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                                voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="secontevent">
+                        <div class="icon">
+                            <i class="far fa-clock"></i>
+                        </div>
+                        <div class="time">
+                            <p>11:00-11:45</p>
+                        </div>
+                        <div class="title">
+                            <h3>Alea Grande</h3>
+                        </div>
+                        <div class="info">
+                            <p>Et harum quidem rerum facilis est et expedita distinctio. At vero eos et accusamus et
+                                iusto odio dignissimos ducimus qui blanditiis</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="thirdevent">
+                        <div class="icon">
+                            <i class="far fa-clock"></i>
+                        </div>
+                        <div class="time">
+                            <p>08:00-08:45</p>
+                        </div>
+                        <div class="title">
+                            <h3>John Smith</h3>
+                        </div>
+                        <div class="info">
+                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+
+                <div class="title">
+                    <p><b>Day 02</b></p>
+                </div>
+                <div class="date">
+                    <p>
+                        18.10.2015
+                    </p>
+                </div>
+                <div class="day2">
+                    <div class="firstevent">
+                        <div class="icon">
+                            <i class="far fa-clock"></i>
+                        </div>
+                        <div class="time">
+                            <p>11:00-11:45</p>
+                        </div>
+                        <div class="title">
+                            <h3>Alea Grande</h3>
+                        </div>
+                        <div class="info">
+                            <p>Et harum quidem rerum facilis est et expedita distinctio. At vero eos et accusamus et
+                                iusto odio dignissimos ducimus qui blanditiis</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="secontevent">
+                        <div class="icon">
+                            <i class="far fa-clock"></i>
+                        </div>
+                        <div class="time">
+                            <p>08:00-08:45</p>
+                        </div>
+                        <div class="title">
+                            <h3>John Smith</h3>
+                        </div>
+                        <div class="info">
+                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="thirdevent">
+                        <div class="icon">
+                            <i class="far fa-clock"></i>
+                        </div>
+                        <div class="time">
+                            <p>09:00-10:45</p>
+                        </div>
+                        <div class="title">
+                            <h3>Juna Doe</h3>
+                        </div>
+                        <div class="info">
+                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                                voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="title">
+                    <p><b>Day 03</b></p>
+                </div>
+                <div class="date">
+                    <p>
+                        19.10.2015
+                    </p>
+                </div>
+                <div class="day2">
+                    <div class="firstevent">
+                        <div class="icon">
+                            <i class="far fa-clock"></i>
+                        </div>
+                        <div class="time">
+                            <p>11:00-11:45</p>
+                        </div>
+                        <div class="title">
+                            <h3>Alea Grande</h3>
+                        </div>
+                        <div class="info">
+                            <p>Et harum quidem rerum facilis est et expedita distinctio. At vero eos et accusamus et
+                                iusto odio dignissimos ducimus qui blanditiis</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="secontevent">
+                        <div class="icon">
+                            <i class="far fa-clock"></i>
+                        </div>
+                        <div class="time">
+                            <p>08:00-08:45</p>
+                        </div>
+                        <div class="title">
+                            <h3>John Smith</h3>
+                        </div>
+                        <div class="info">
+                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="thirdevent">
+                        <div class="icon">
+                            <i class="far fa-clock"></i>
+                        </div>
+                        <div class="time">
+                            <p>09:00-10:45</p>
+                        </div>
+                        <div class="title">
+                            <h3>Juna Doe</h3>
+                        </div>
+                        <div class="info">
+                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                                voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                        </div>
+                    </div>
+                    <hr>
+
+                </div>
+                <div class="title">
+                    <p><b>Day 04</b></p>
+                </div>
+                <div class="date">
+                    <p>
+                        20.10.2015
+                    </p>
+                </div>
+                <div class="day2">
+                    <div class="firstevent">
+                        <div class="icon">
+                            <i class="far fa-clock"></i>
+                        </div>
+                        <div class="time">
+                            <p>11:00-11:45</p>
+                        </div>
+                        <div class="title">
+                            <h3>Alea Grande</h3>
+                        </div>
+                        <div class="info">
+                            <p>Et harum quidem rerum facilis est et expedita distinctio. At vero eos et accusamus et
+                                iusto odio dignissimos ducimus qui blanditiis</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="secontevent">
+                        <div class="icon">
+                            <i class="far fa-clock"></i>
+                        </div>
+                        <div class="time">
+                            <p>08:00-08:45</p>
+                        </div>
+                        <div class="title">
+                            <h3>John Smith</h3>
+                        </div>
+                        <div class="info">
+                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="thirdevent">
+                        <div class="icon">
+                            <i class="far fa-clock"></i>
+                        </div>
+                        <div class="time">
+                            <p>09:00-10:45</p>
+                        </div>
+                        <div class="title">
+                            <h3>Juna Doe</h3>
+                        </div>
+                        <div class="info">
+                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                                voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                        </div>
+                    </div>
+                    <hr>
+
+                </div>
+
+            </div>
+            <div class="appointment">
+                <div class="title">
+                    <h1>Appointment</h1>
+                </div>
+                <div class="desc">
+                    <p>Register for this next Event</p>
+                </div>
+                <div class="register">
+                    <form action="">
+                        <label for="name">Name</label><br>
+                        <input type="text" required placeholder="Enter your Name" id="name" class="name"><br>
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" class="email" required placeholder="Enter your Email"><br>
+                        <label for="tel">Phone Number</label><br>
+                        <input type="tel" required placeholder="Enter your Phone number"><br>
+                        <label for="message">Message</label><br>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
+                        <input type="submit" value="SEND MESSAGE">
+                    </form>
+                </div>
+            </div>
+            <br><br>
+        </section>
+        <br>
+        <section id="choosefrmap">
+            <!-- sadece gorunus ucun qoyulub -->
+            <img src="../HTMLCSS-HTML layout/assets/images/map.png" width="1200px" height="450px"
+                alt="Map for rent house">
+            <!-- <h1>My First Google Map</h1>
+
+            <div id="googleMap" style="width:100%;height:400px;"></div>
+
+            <script>
+                function myMap() {
+                    var mapProp = {
+                        center: new google.maps.LatLng(51.508742, -0.120850),
+                        zoom: 5,
+                    };
+                    var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+                }
+            </script>
+
+            <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script> -->
+
+        </section>
+    </main>
+    <footer>
+        <div class="topfooter">
+            <div class="templateBuy">
+                <!-- ad tapmadim :D -->
+                <div class="title">
+                    <h4>POLO HTML5 TEMPLATE</h4>
+                </div>
+                <div class="info">
+                    <p>
+                        Built with love in Fort Worth, Texas, USA
+                        All rights reserved. Copyright © 2019. INSPIRO.
+                    </p>
+                </div>
+                <button type="submit">PURCHASE NOW</button>
+            </div>
+            <div class="DISCOVER">
+                <div class="title">
+                    <h4>DISCOVER</h4>
+                </div>
+                <ul>
+                    <li><a href="">Features</a></li>
+                    <li><a href="">Layouts</a></li>
+                    <li><a href="">Corparate</a></li>
+                    <li><a href="">Updates</a></li>
+                    <li><a href="">Pricing</a></li>
+                    <li><a href="">Custmoers</a></li>
+                </ul>
+            </div>
+            <div class="FEATURES">
+                <div class="title">
+                    <h4>FEATURES</h4>
+                </div>
+                <ul>
+                    <li><a href="">Layouts</a></li>
+                    <li><a href="">Headers</a></li>
+                    <li><a href="">Widgets</a></li>
+                    <li><a href="">Footers</a></li>
+                </ul>
+            </div>
+            <div class="PAGES">
+                <div class="title">
+                    <h4>PAGES</h4>
+                </div>
+                <ul>
+                    <li><a href="">Portfolio</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Shop</a></li>
+                </ul>
+            </div>
+            <div class="SUPPORT">
+                <div class="title">
+                    <h4>SUPPORT</h4>
+                </div>
+                <ul>
+                    <li><a href="">Help Desk</a></li>
+                    <li><a href="">Documentation</a></li>
+                    <li><a href="">Contact US</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottomfooter">
+            <p>
+                © 2019 POLO - Responsive Multi-Purpose HTML5 Template. All Rights Reserved. INSPIRO
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
